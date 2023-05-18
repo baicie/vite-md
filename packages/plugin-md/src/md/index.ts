@@ -7,7 +7,7 @@ interface Options {
   markdown?: MarkdownOptions
 }
 
-export default (options: Options = {}): Plugin => {
+export function VitePluginMd(options: Options = {}): Plugin {
   const { root, markdown } = options
   const markdownToVue = createMarkdownToVueRenderFn(root, markdown)
   return {

@@ -24,7 +24,7 @@ interface MarkdownCompileResult {
   pageData: PageData
 }
 
-const cache = new LRUCache<string, MarkdownCompileResult>({ max: 1024 })
+const cache = new LRUCache({ max: 1024 })
 
 export function createMarkdownToVueRenderFn(
   root: string = process.cwd(),
