@@ -1,20 +1,31 @@
 {
   "name": "vite-md-morerepo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "private": "true",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cz": "cz"
-  },
-  "keywords": [],
+  "description": "",
   "author": "",
   "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cz": "cz",
+    "fix": "eslint --fix ."
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.6",
+    "@types/debug": "^4.1.7",
+    "@types/diacritics": "^1.3.1",
+    "@types/escape-html": "^1.0.2",
+    "@types/eslint": "^8.37.0",
+    "@types/lru-cache": "^7.10.10",
+    "@types/markdown-it-container": "^2.0.5",
+    "@types/markdown-it-emoji": "^2.0.2",
+    "@types/prismjs": "^1.26.0",
+    "@types/qs": "^6.9.7",
     "commitizen": "^4.3.0",
     "cz-customizable": "^7.0.0",
-    "tsx": "^3.12.7"
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
   }
 }
