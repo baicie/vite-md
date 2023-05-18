@@ -10,7 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cz": "cz",
-    "fix": "eslint --fix ."
+    "fix": "eslint --fix .",
+    "build": "pnpm run -C packages/plugin-md build",
+    "dev": "pnpm run -C play dev"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.6",
@@ -26,6 +28,7 @@
     "commitizen": "^4.3.0",
     "cz-customizable": "^7.0.0",
     "tsx": "^3.12.7",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.1"
   }
 }
