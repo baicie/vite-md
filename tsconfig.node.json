@@ -11,8 +11,8 @@
     "internal/**/*.json",
     "scripts/**/*",
     "packages/theme-chalk/*",
-    "packages/design-template/version.ts",
-    "packages/design-template/package.json"
+    "packages/plugin-md/version.ts",
+    "packages/plugin-md/package.json"
   ],
   "exclude": ["**/__tests__/**", "**/tests/**", "**/dist"]
 }
