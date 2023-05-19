@@ -8,7 +8,7 @@ pnpm update:version
 
 pnpm build
 
-cd packages/cli
+cd packages/plugin-md
 
 npm publish --access public
 cd -
